@@ -6,7 +6,6 @@
   --small-size: 1.8rem;
 }
 
-
 hr {
   display: block;
   height: 1px;
@@ -15,7 +14,9 @@ hr {
   margin: 2rem;
   padding: 0;
 }
-
+.cursor {
+  display: none;
+}
 * {
   position: relative;
   margin: 0;
@@ -321,7 +322,9 @@ body {
   h4 {
     font-size: var(--small-size);
   }
-
+  .cursor {
+    display: block;
+  }
   h1 {
     font-family: "Vollkorn", serif;
     font-size: 14.8rem;
