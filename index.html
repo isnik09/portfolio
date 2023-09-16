@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIK Nerkar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Manrope:wght@300&family=Vollkorn&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="nav-wrapper">
+        <nav>
+            <a href="#" class="effect">
+                <h2>NIK</h2>
+            </a>
+            <a href="#" class="effect">
+                <h3 class="blog" onclick="workingOnIt()">Blog</h3>
+                <script>
+                    function workingOnIt() {
+                        alert("Working on it...");
+                    }
+                </script>
+            </a>
+
+            <a href="/NIK-RESUME.pdf" class="effect" download="NikhilNerkar-resume">
+                <h3>Download CV</h3>
+            </a>
+
+            </a>
+            <a href="https://www.github.com/isnik09/" target="_blank" class="effect">
+                <h3 class="git">Github</h3>
+            </a>
+        </nav>
+    </div>
+    <hr />
+
+    <div class="main-div">
+        <div class="name-div">
+            <h3 style="padding-bottom: 1rem">-- Hello there, my name is</h3>
+
+            <h1 class="effect" style="padding: 1rem 0">Nikhil</h1>
+
+            <h1 class="effect" style="padding-left: 11rem">Nerkar</h1>
+        </div>
+        <div class="desc-div">
+            <h3>
+                __ <br />
+                I create beautiful looking user interfaces.<br />
+                "Less is more", that's my philosophy<br />
+                when it comes to design.
+            </h3>
+
+            <div class="btn-div">
+                <button onclick="sendEmail()" class="effect contact-me-btn">
+                    Contact Me
+                </button>
+                <script>
+                    function sendEmail() {
+                        var email = "nik.nerkar@outlook.com";
+                        var subject = "Let's talk about...";
+                        var mailtoLink =
+                            "mailto:" + email + "?subject=" + encodeURIComponent(subject);
+                        window.open(mailtoLink, "_blank");
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <a href="#" class="effect">
+            <h4>Design</h4>
+        </a>
+        <a href="#" class="effect">
+            <h4>Case Studies</h4>
+        </a>
+        <a href="#" class="effect">
+            <h4>Random Fun</h4>
+        </a>
+    </div>
+
+    <footer>
+
+        <hr class="main-hr" />
+
+        </div>
+        <div class="footer">
+            <h5 class="effect">NIK NERKAR - 2023</h5>
+        </div>
+    </footer>
+    <div class="cursor"></div>
+
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
