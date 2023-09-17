@@ -356,9 +356,9 @@ body {
   justify-items: center;
   align-items: center;
   grid-template-areas:
+    "last last"
     ". ."
-    ". ."
-    "last last";
+    ". .";
 }
 
 .last {
@@ -387,9 +387,9 @@ body {
 
 .underline {
   text-decoration: underline;
-  text-decoration-thickness: .5rem;
+  text-decoration-thickness: 0.5rem;
   text-decoration-color: rgba(255, 255, 255, 0.363);
-  -moz-text-decoration-color:;
+  -moz-text-decoration-color: ;
 }
 img:hover {
   transform: scale(1.1);
