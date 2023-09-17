@@ -364,6 +364,7 @@ body {
 .last {
   grid-area: last;
   width: 90%;
+  padding-top: var(--primary-size);
 }
 
 .grid-items {
