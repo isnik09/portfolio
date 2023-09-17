@@ -364,7 +364,6 @@ body {
 .last {
   grid-area: last;
   width: 90%;
-  padding-top: var(--primary-size);
 }
 
 .grid-items {
@@ -415,4 +414,5 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: var(--primary-size);
 }
